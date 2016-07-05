@@ -13,7 +13,8 @@ if __name__ == "__main__":
     if conn is None:
         print "Error connecting to DB"
         exit(1)
-
+    
+    # This code uses the IP2LOCATION-LITE-DB11 from IP2LOCATION.
     df = read_csv('./IP2LOCATION-LITE-DB11/IP2LOCATION-LITE-DB11.CSV')
 
     counter = 1
