@@ -1,3 +1,4 @@
+# This code was developed by Daniel Riofrio.
 import psycopg2
 
 def dr_establishConn(server, db, user, password):
